@@ -20,9 +20,15 @@ Comparison opterators:
 # else:
 #     print("This is else")
 
+
+
 # function to convert into int - int()
 # function to convert into float - float()
 # function to convert into str - str()
+
+
+
+
 n1 = int(input("Enter first number: "))
 n2 = int(input("Enter second number: "))
 operation = input("Enter operation plus/minus/multiply/divide : ")
