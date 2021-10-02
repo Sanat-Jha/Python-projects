@@ -28,12 +28,11 @@ def clean_up(i):
         os.rename(remove_me, src)
 
 
-def upload_post(i):
+def upload_post(i):   #function for uploading a post
     bot = Bot()
 
     bot.login(username="codingcoding100", password="sanatdanger")
     bot.upload_photo("{}".format(i), caption="dekho dekho #infinity")
-
 
 if __name__ == '__main__':
     # enter name of your image bellow
